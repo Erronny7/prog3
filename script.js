@@ -149,4 +149,6 @@ function draw() {
     for (let i in GrassAndFlowerEaterArr) {
         GrassAndFlowerEaterArr[i].eat()
     }
+
+    
 }

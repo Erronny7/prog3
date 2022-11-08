@@ -1,7 +1,6 @@
-class GrassAndFlowerEater {
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
+class GrassAndFlowerEater extends LivingCreature {
+    constructor(x, y, index) {
+        super(x, y, index);
         this.energy = 8
         this.directions = [];
     }
